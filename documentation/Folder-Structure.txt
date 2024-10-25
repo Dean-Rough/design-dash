@@ -1,0 +1,20 @@
+design-dash/
+├── documentation/
+├── node_modules/
+├── public/
+├── src/
+│   ├── assets/
+│   ├── components/
+│   ├── services/
+│   ├── store/
+│   ├── App.vue
+│   └── main.js
+├── .env
+├── .gitignore
+├── package.json
+├── Build-Stages.md
+└── README.md
+
+Local folder: /Users/deannewton/Documents/design-dash
+Documentation: /Users/deannewton/Documents/design-dash/documentation
+Github: https://github.com/Dean-Rough/design-dash
