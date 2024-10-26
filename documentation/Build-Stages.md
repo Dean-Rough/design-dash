@@ -150,6 +150,29 @@ Module 10: Testing and Debugging
 	•	Test the application with actual users in your office.
 	•	Collect feedback for improvements.
 
+Module 11: Implement Backend and Database
+
+	•	Objective: Set up a backend server and database for multi-user support and data persistence.
+	•	Tasks:
+		• Set Up Backend Server:
+			• Create a new Node.js project for the backend.
+			• Set up Express.js as the web server framework.
+			• Implement API endpoints for CRUD operations on projects.
+		• Database Integration:
+			• Choose and set up a database (e.g., MongoDB or PostgreSQL).
+			• Create schemas for projects and users.
+			• Implement database operations in the backend.
+		• User Authentication:
+			• Implement user registration and login functionality.
+			• Use JWT (JSON Web Tokens) for secure authentication.
+		• Update Frontend:
+			• Modify Vuex store to interact with the new backend API.
+			• Update components to handle user authentication.
+			• Ensure all data operations go through the backend.
+		• Deploy Backend:
+			• Set up a hosting solution for the backend (e.g., Heroku, DigitalOcean).
+			• Configure environment variables for sensitive information.
+
 Additional Notes
 
 	•	AI Coding Assistance:
