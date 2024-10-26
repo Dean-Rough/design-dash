@@ -1,0 +1,20 @@
+index.mjs:78 Uncaught OpenAIError: It looks like you're running in a browser-like environment.
+
+This is disabled by default, as it risks exposing your secret API credentials to attackers.
+If you understand the risks and have appropriate mitigations in place,
+you can set the `dangerouslyAllowBrowser` option to `true`, e.g.,
+
+new OpenAI({ apiKey, dangerouslyAllowBrowser: true });
+
+https://help.openai.com/en/articles/5112595-best-practices-for-api-key-safety
+
+    at new OpenAI (index.mjs:78:19)
+    at eval (assistantService.js:3:1)
+    at ./src/services/assistantService.js (app.js:107:1)
+    at __webpack_require__ (app.js:373:32)
+    at fn (app.js:602:21)
+    at eval (index.js??clonedRuleSet-40.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/AssistantCreator.vue?vue&type=script&lang=js:2:84)
+    at ./node_modules/babel-loader/lib/index.js??clonedRuleSet-40.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./src/components/AssistantCreator.vue?vue&type=script&lang=js (app.js:30:1)
+    at __webpack_require__ (app.js:373:32)
+    at fn (app.js:602:21)
+    at eval (AssistantCreator.vue?vue&type=script&lang=js:5:219)
